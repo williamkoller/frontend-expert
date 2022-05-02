@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Search, PageTemplate, Dishe } from '@/components';
+import { Search, PageTemplate } from '@/components';
+import Stylus from '../styles/internals.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -12,12 +13,13 @@ const Home: NextPage = () => {
       </Head>
 
       <PageTemplate>
-        <h1>Find delivery options near you</h1>
-        <Search />
-        <h2>
-          Discover your new favorite delivery. Thousands of options at a click.
-        </h2>
-        <Dishe />
+        <div className={Stylus.content}>
+          <h1>Encontre opções em Delivery próximo a você.</h1>
+          <Search />
+          <h2>
+            Descubra seu novo Delivery favorito. Milhares de opções a um clique.
+          </h2>
+        </div>
       </PageTemplate>
     </>
   );
