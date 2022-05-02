@@ -11,11 +11,12 @@ export function Dishe() {
           alt='Plate'
           width={592}
           height={312}
+          layout='responsive'
         />
       </div>
       <div>
         <div>
-          <h2>Name of Product</h2>
+          <h2>Nome do Produto</h2>
         </div>
         <div className={Stylus.details}>
           <DisheDetails type='reviews' title='(201)' subtitle='4.5' />
