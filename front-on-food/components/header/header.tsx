@@ -11,7 +11,7 @@ export function Header() {
           <Link href='/'>
             <a>
               <Image
-                src='/images/logo.png'
+                src='/images/home/logo.png'
                 width={45}
                 height={36}
                 alt='OnFood'

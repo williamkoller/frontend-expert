@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer>
       <div className={Styles.footer}>
-        <p>@ 2020 - William Koller</p>
+        <p>@ 2022 - 041 Code Koller</p>
       </div>
     </footer>
   );
